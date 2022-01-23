@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "sass": "^1.49.0"
+  },
+  "dependencies": {
+    "three": "^0.136.0"
+  }
+}
