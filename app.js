@@ -1,5 +1,6 @@
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+import * as dat from "dat.gui";
 
 export default class Sketch {
   constructor(options) {
@@ -21,8 +22,13 @@ export default class Sketch {
     this.addObjects();
     this.render();
     this.setupResize();
+    this.debug();
   }
 
+  debug() {
+    this.gui = new dat.GUI();
+    this.gui.add(this.mesh, "visible");
+  }
   resize() {
     this.width = this.container.offsetWidth;
     this.height = this.container.offsetHeight;
