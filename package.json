@@ -5,5 +5,23 @@
   "dependencies": {
     "dat.gui": "^0.7.7",
     "three": "^0.136.0"
-  }
+  },
+  "name": "boilerplate-three",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axelOngaro/threeJs-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axelOngaro/threeJs-boilerplate/issues"
+  },
+  "homepage": "https://github.com/axelOngaro/threeJs-boilerplate#readme",
+  "description": ""
 }
